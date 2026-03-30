@@ -1,4 +1,4 @@
-# 🤖 AI Financial Analyst Agent  
+# 🤖 Agente Financeiro de Bolsa de Valores 
 ### Um agente inteligente para análise de ações com tomada de decisão assistida por IA
 
 ---
