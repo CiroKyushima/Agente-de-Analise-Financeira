@@ -6,3 +6,4 @@ langchain-openai==0.1.6
 yfinance==1.2.0
 pandas==2.2.3
 requests==2.32.5
+langchainhub==0.1.21
