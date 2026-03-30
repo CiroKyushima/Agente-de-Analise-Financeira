@@ -131,7 +131,24 @@ cd Agente-telegram-de-Analise-Financeira
 pip install -r requirements.txt
 
 # 3️⃣ Criar arquivo .env na pasta do projeto
-coloque: OPENAI_API_KEY=sua_chave_aqui, TELEGRAM_TOKEN=codigo_telegram
+utilize o arquivo .env.example como base para criar o arquivo .env
 
 #4️⃣ Executar o projeto:
 python main.py
+
+```
+#### instalação via DOCKER:
+```bash
+# 1️⃣ Clonar o repositório
+git clone https://github.com/CiroKyushima/Agente-telegram-de-Analise-Financeira
+cd Agente-telegram-de-Analise-Financeira
+
+# 2️⃣ Criar arquivo .env na pasta do projeto
+utilize o arquivo .env.example como base para criar o arquivo .env
+
+# 3️⃣ Build da imagem
+docker compose build
+
+# 5️⃣ Rodar o container
+docker run --env-file .env -it {nome_da_imagem}
+```
